@@ -7,7 +7,7 @@ export default class Header extends Component {
     return (
       <div className="container">
         <HeaderWrap>
-          <Logo href="/"> <img src="/"/> </Logo>
+          <Logo href="/"> <img/> </Logo>
 
           <NavMenu>
               <a href="/">Feature</a>
