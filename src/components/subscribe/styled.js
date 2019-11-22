@@ -4,7 +4,7 @@ import media from "../../util/media";
 export const Row = styled.div`
   margin-top: 257px;
   ${media.sm`
-    margin-top:490px;
+    margin-top:20px;
   `}
 `;
 export const Subs = styled.div`

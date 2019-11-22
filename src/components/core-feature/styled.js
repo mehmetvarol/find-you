@@ -9,6 +9,7 @@ export const CoreArea = styled.div`
 
   ${media.sm`
     height:1000px;
+    margin-top:0;
     .mobile{
       display:block !important;
      }
@@ -19,7 +20,7 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 350px;
+  width: 100%;
   span {
     font-size: 28px;
     font-weight: normal;
@@ -38,6 +39,7 @@ export const Card = styled.div`
   }
 
   ${media.sm`
+    width:100%;
     span{
       margin-top:20px;
     }

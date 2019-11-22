@@ -46,6 +46,7 @@ export const BannerBody = styled.div`
   background-image: url("/images/banner-body.png");
   ${media.sm`
     margin: 0;
-    margin-top: 75px;
+    margin: 50px 0;
+    height:160px;
   `}
 `;

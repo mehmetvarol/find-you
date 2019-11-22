@@ -2,11 +2,12 @@ import styled from "styled-components";
 import media from "../../util/media";
 export const Area = styled.div`
   width: 100%;
-  height: 664px;
+  min-height: 664px;
   margin-top: 283px;
   background-color: #eff8ff;
 
   ${media.sm`
+    margin-top:10px;
     .container{
       display:block !important;
     }

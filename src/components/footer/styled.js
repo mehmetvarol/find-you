@@ -1,8 +1,12 @@
 import styled from "styled-components";
+import media from "../../util/media"
 
 export const Image = styled.img``;
 export const FooterWrapper = styled.div`
   margin-top: 170px;
+  ${media.sm`
+    margin-top:50px;
+  `}
 `;
 
 export const FooterMenu = styled.ul`
