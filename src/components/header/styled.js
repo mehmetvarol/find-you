@@ -15,14 +15,12 @@ export const HeaderWrap = styled.div`
     height: 200px;
   `}
 `;
+export const Logo = styled.a``;
 
-export const Logo = styled.a`
-  img {
-    background-image: url("/images/logo.png");
-    width: 146px;
-    height: 46px;
-    background-repeat: no-repeat;
-  }
+export const LogoImage = styled.img`
+  width: 146px;
+  height: 46px;
+  background-repeat: no-repeat;
 `;
 
 export const NavMenu = styled.div`
