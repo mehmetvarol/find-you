@@ -58,8 +58,8 @@ export const ImageOne = styled.img``;
 export const ImageTwo = styled.img``;
 export const Iphone = styled.img`
   position: absolute;
-  right: -175px;
-  top: -105px;
+  right: 5%;
+  top: -146px;
 
   ${media.sm` 
     position:initial;

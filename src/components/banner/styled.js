@@ -39,7 +39,6 @@ export const BannerSub = styled(BannerText)`
 export const BannerBody = styled.div`
   width: 100%;
   height: 587px;
-  margin: 0 10%;
   margin-top: 90px;
   background-size: contain;
   background-repeat: no-repeat;

@@ -13,8 +13,8 @@ import {
 export default class VideoCall extends Component {
   render() {
     return (
-      <Area>
-        <div className="container d-flex position-relative">
+      <Area className="position-relative">
+        <div className="container">
           <Video>
             <Call>You can easily record video call</Call>
             <CallSub>
