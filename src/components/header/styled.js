@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import media from "../../util/media";
+import styled from 'styled-components'
+import media from '../../util/media'
 
 export const HeaderWrap = styled.div`
   width: 100%;
@@ -14,14 +14,14 @@ export const HeaderWrap = styled.div`
     justify-content: flex-start;
     height: 200px;
   `}
-`;
-export const Logo = styled.a``;
+`
+export const Logo = styled.a``
 
 export const LogoImage = styled.img`
   width: 146px;
   height: 46px;
   background-repeat: no-repeat;
-`;
+`
 
 export const NavMenu = styled.div`
   display: flex;
@@ -44,4 +44,4 @@ export const NavMenu = styled.div`
     justify-content: center;
     align-items: center;
   `}
-`;
+`
